@@ -41,7 +41,7 @@ start.addEventListener('click', () => {
             }
             sec.innerHTML = "00";
         }
-    }, 100);
+    }, 10);
     start.disabled = true;
     pause.disabled = false;
 });
